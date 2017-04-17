@@ -4,10 +4,6 @@ import android.media.Image;
 
 public interface IDrink {
 
-	private String name, description;
-	private int rating;
-	private Image image;
-
 	public void setName(String name);
 
 	public String getName();
